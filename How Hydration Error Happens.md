@@ -1,4 +1,4 @@
-# How Hydration Works in Next.js
+# How Hydration Error Happens in Next.js
 ---
 
 ## 1️⃣ Server first
