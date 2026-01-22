@@ -1,1 +1,0 @@
-# next-core-concepts-understanding-docs
