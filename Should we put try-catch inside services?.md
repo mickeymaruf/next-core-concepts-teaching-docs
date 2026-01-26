@@ -52,6 +52,7 @@ Services should be **honest**:
 export async function getUser(id: string) {
   const res = await fetch(`https://api.example.com/users/${id}`)
 
+  // fetch doesn't throw on 4xx/5xx — prevent parsing HTML error responses as JSON
   if (!res.ok) {
     throw new Error(`Failed to fetch user (${res.status})`)
   }
